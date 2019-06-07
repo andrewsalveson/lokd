@@ -1,0 +1,8 @@
+#!/bin/sh
+clear
+(
+  while true ; do
+    sleep $(shuf -i 1-300 -n 1)
+    echo "looks like somebody's been piping scripts straight to shell. tsk."
+  done
+) &
