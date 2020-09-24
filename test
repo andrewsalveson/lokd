@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -sS https://raw.githubusercontent.com/andrewsalveson/lokd/master/ins | sh
